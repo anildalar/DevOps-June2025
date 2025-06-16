@@ -1,0 +1,51 @@
+1. MS-DOS
+ Microsoft Disk Operating System
+
+Microsoft Window 11
+	Closed Source
+	Its not free. We have to take lic
+
+Linux OS
+1. Open Source 
+	Any body can see the source code
+2. Free to use
+
+
+Linux
+
+Linus Toravald ----> Unix
+
+Linu + x = Linux
+
+
+Debian OS is parent
+Ubuntu OS is child
+
+
+
+Older Times
+If you want to work on Virtual OS
+1.VMware
+2.Oracle VirtualBox
+
+New Gen
+1. Docker
+
+
+Tools to manage source code.
+To secure code on cloud
+1. HTML
+
+
+Git and GitHub
+
+1. Git Tool/Software
+	1.1 Git SCM
+		Source Code Manager
+2. GitHub Website (Microsoft Owned)
+	2.1 Code
+
+
+git --version
+2.49.0
+MajorNo.MinroNo.PatchNo
