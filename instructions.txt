@@ -39,6 +39,10 @@ To secure code on cloud
 
 Git and GitHub
 
+Git is a software
+GitHub is a website
+
+
 1. Git Tool/Software
 	1.1 Git SCM
 		Source Code Manager
@@ -49,3 +53,52 @@ Git and GitHub
 git --version
 2.49.0
 MajorNo.MinroNo.PatchNo
+
+Dev+Ops Engineers
+Development Plus Operations
+
+Toots for a Deveoper
+1. Git SCM
+2. VS Code Editor
+
+Today we will learn How to manage our source code
+
+1. Go to D Drive
+2. Create DevOps2025 Folder
+3. Go Inside that folder
+4. Create Current Directory folder
+5. Go inside that folder
+6. right click "open git bash here"
+7. code .   -> will open VS Code Editor with current folder structure
+8. Ctrl + Shift + `
+9. Lets create a file using touch command
+    9.1 touch <filename>
+    9.2 vi <filename>
+        visual Editor
+    9.3 vim <filename>
+        visual Editor Improved
+        Type I to go inside Insert Mode
+        Esc : w q enter
+
+9.1 How to remove a file in Linux OS ?
+    rm <file/folder>
+
+10. How to create a directory in Linux OS ?
+    mkdir <dirname>
+11. How to remove a directory in Linux OS ?
+    rmdir <dirname>
+
+Linux OS Commands
+1. Touch -> To create file
+2. Mkdir -> To create folder/Directory
+Make  -> To Create something
+
+
+Auto Completion
+  Write few letters and then press Tab Key
+
+
+
+
+
+
