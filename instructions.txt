@@ -97,6 +97,42 @@ Make  -> To Create something
 Auto Completion
   Write few letters and then press Tab Key
 
+1. VIM Editor Modes
+
+	There are 2 modes
+	1.1 Insert Mode  -> I
+	1.2 Command Mode -> Esc
+		1.2.1 : 
+                        w -> Save
+			q -> Quit
+              Esc : w q enter
+
+2. How to create/Upload Repo to GitHub
+	2.1 Go to gitHub.com/new
+
+	5 Git Commands to upload to GitHub
+	
+	git init
+        git remote add origin <repoLink>
+	
+	git add .    Stagging
+        git commit -m "Message"    Committing
+	git push origin <branchName>
+
+
+3. Buy a domain from GoDaddy
+	~130 inr/year
+
+4. Buy a VPS from Contabo
+	~500 inr/month
+
+If you want to become a DevOps Engineer
+1. Own Domain
+2. Own Server
+
+
+
+
 
 
 
