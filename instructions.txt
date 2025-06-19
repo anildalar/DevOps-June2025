@@ -129,7 +129,42 @@ Auto Completion
 If you want to become a DevOps Engineer
 1. Own Domain
 2. Own Server
+	
+Where we can buy/Purchase Server ?
+	1. Contabo
+	2. OVH
+	3. Hetzner
 
+	4. AWS
+	5. GCP
+	6. Microsoft AZure
+
+Once you buy server
+1. Server IP
+2. Server Port
+3. Username
+4. Password
+
+
+Server IP   = 65.108.149.166
+Server Port = 22 (SSH)
+Username    = root
+Password    = id_rsa
+
+id_rsa.zip
+
+1. GO To C Drvie
+2. Go inside Users
+3. Go Inside <username> my case. himsu
+4. Paste id_rsa.zip
+5. right click  -> WinRAR -> extract here...
+6. win + r
+7. cmd
+8. How to connect with remote server ?
+
+
+pwd = Present Working Directory
+cd = change directory
 
 
 
