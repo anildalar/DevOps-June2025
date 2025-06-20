@@ -166,7 +166,50 @@ id_rsa.zip
 pwd = Present Working Directory
 cd = change directory
 
+Permission String
+lrwxrwxrwx = Symbolic Link / ShortCut (File)
+drwxrwxrwx = Directory
+-rwxrwxrwx = File
 
+
+0. How to show the content of a file ?
+   cat <filename>
+
+1. How i can check which OS i am working on ?
+	1.1  cat /etc/os-release
+
+2. How to check my server IP on the server ?
+	2.1  hostname -I
+	
+
+3. How to change my HostName ?
+	3.1 hostname <newHostName>
+	    hostname anil
+	
+4. How to remove everything in VIM ?
+	Esc : %d
+
+5. How to delete a line in VIM
+	Esc dd
+
+6. What is Client Server Architecture ?
+
+7. How to install a WebServer on your server ?
+	7.1 Apache
+		7.1.1 apt install apache2 
+		      apt remove apache2
+
+How to check if apache is installed and running ?
+	systemctl status apache2
+
+apt -> Advanced Package Tool
+			
+	7.2 Ngnix
+
+	
+8. How to clone your GitHub repo on Server?
+	/var/www/html/yourdomain
+	git clone <repoLink> -b <branchName> <Location>
 
 
 
