@@ -200,17 +200,50 @@ drwxrwxrwx = Directory
 		      apt remove apache2
 
 How to check if apache is installed and running ?
-	systemctl status apache2
+	7.1. systemctl status apache2
+	7.2  IP -> Open in browser
 
 apt -> Advanced Package Tool
 			
 	7.2 Ngnix
 
+Windows -> file.exe / file.msi
+LinuxOS  ->  apt
+
+
+7.2 As soon you install Apache it will create directory
+
+Before Apache install
+	/var
+After Apache install
+	/var/www/html
+
+
+Harsh -> /var/www/html/snenmh.xyz/index.html
+Vijay -> /var/www/html/vijayji.xyz/index.html
+
+
+http://65.108.149.166/  -> /var/www/html/
+
+
+ls -al
+command -flags
+
+rm -rf <file/dir>
+r  = Recursive
+f = Forcefully
+
+
+Why /var/www/html directory is so important for website ?
+
+/var/www/html is a standard directory location where we can put our website code.
+
+
+
 	
-8. How to clone your GitHub repo on Server?
+8. How to clone/Download your GitHub repo on Server?
 	/var/www/html/yourdomain
 	git clone <repoLink> -b <branchName> <Location>
-
 
 
 
