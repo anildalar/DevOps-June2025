@@ -245,7 +245,79 @@ Why /var/www/html directory is so important for website ?
 	/var/www/html/yourdomain
 	git clone <repoLink> -b <branchName> <Location>
 
+9. How to point our domain to our ServerIP ?
 
+DNS Management
+Domain Name System
+
+https://snenmh.xyz  ----> IP Address
+
+https://google.com  --- > IP Addr ???
+
+WebSites HOST Server
+
+Domain + Server(IP)
+
+Domain Name System -> GoDaddy -> Domain Panel -> Login
+
+DNS
+
+Harsh Domain Username and Password ?
+Vijay Domain Username and Password ?
+
+snenmh.xyz
+username:- katariyaharsh09@gmail.com
+password:- 
+  
+
+snenmh.xyz   ---- Domain Panel----->Add A Record --->    65.108.149.166
+
+10 . How to check if our domain is pointing to our server ?
+
+Win + R -> cmd -> ping snenmh.xyz -t
+
+
+DNS Propagation Time  -> -> Min 0Sec, Max 48Hrs
+
+
+How we can point our Domain to our server IP very fast ?
+
+1. Flush Google DNS Public Cache
+	https://developers.google.com/speed/public-dns/cache
+2. cmd
+	ipconfig /flushdns
+
+
+
+Lets point our site to /var/www/html/snenmh.xyz
+
+Client Server Architecture
+
+Client ----------> Request ---------->Server -> (WebServer i.e Apache)
+
+Chrome -> http://snenmh.xyz ----->DNS----> 65.108.149.166 -> Apache Configure 
+							snenmh.xyz  -> /var/www/html/snenmh.xyz
+
+Chrome -> http://vijayji.xyz ----->DNS----> 65.108.149.166 -> Apache Configure 
+							vijayji.xyz  -> /var/www/html/vijayji.xyz
+
+
+
+Apache VirtualHost
+1. /etc/apache2/sites-available/snenmh.xyz.conf
+<VirtualHost *:80>
+        	ServerName /snenmh.xyz
+		DocumentRoot /var/www/html/snenmh.xyz
+</VirtualHost>
+
+2. Actiate the configuration file
+	a2ensite snenmh.xyz.conf
+ 	a2ensite
+	apache2 enable site
+3. systemctl reload apache2
+
+4. Google Chrome
+     http://snenmh.xyz  -> Website Open
 
 
 
