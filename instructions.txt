@@ -284,6 +284,7 @@ How we can point our Domain to our server IP very fast ?
 
 1. Flush Google DNS Public Cache
 	https://developers.google.com/speed/public-dns/cache
+	https://dns.google/cache
 2. cmd
 	ipconfig /flushdns
 
@@ -301,8 +302,6 @@ Chrome -> http://snenmh.xyz ----->DNS----> 65.108.149.166 -> Apache Configure
 Chrome -> http://vijayji.xyz ----->DNS----> 65.108.149.166 -> Apache Configure 
 							vijayji.xyz  -> /var/www/html/vijayji.xyz
 
-
-
 Apache VirtualHost
 1. /etc/apache2/sites-available/snenmh.xyz.conf
 <VirtualHost *:80>
@@ -318,6 +317,9 @@ Apache VirtualHost
 
 4. Google Chrome
      http://snenmh.xyz  -> Website Open
+
+5. How we can check if our domain is pointing to our server or not ?
+    5.1 ping snenmh.xyz -t
 
 
 
