@@ -323,3 +323,50 @@ Apache VirtualHost
 
 
 
+Hypertext Transfer Protocol -> Port NO  -> 80
+	http://snenmh.xyz
+
+Hypertext Transfer Protocol Secured -> PortNo 443
+https://snenmh.xyz
+
+You need SSL Certificates
+1. Buy SSL 
+2. Free SSL -> Letsencrypt
+
+
+
+SSH -> Port No 22
+
+
+
+
+65.108.149.166
+
+
+certbot   ------Request --------->Letsencrypt
+certbot  <------ SSL ---------   Letsencrypt
+
+SSL Certificates
+1. fullchain.pem
+2. privkey.pem
+
+
+90 Days Valid
+Before 90 Days i need to Renew it
+
+
+I want Custom Nameservers.
+
+DNS Records  -> Godaddy  -> 48hrs
+
+
+DNS Records  -> My Own Custom Nameservers -> Fast Propogation time
+
+
+
+
+48hrs --> 10sec
+
+
+FreeDNS Provider
+1. http://freedns.centos-webpanel.com/login.php
