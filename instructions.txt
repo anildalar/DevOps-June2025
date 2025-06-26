@@ -370,3 +370,40 @@ DNS Records  -> My Own Custom Nameservers -> Fast Propogation time
 
 FreeDNS Provider
 1. http://freedns.centos-webpanel.com/login.php
+
+
+
+
+How to check who is managing your DNS Records?
+GoDaddy ?
+Someone other ?
+
+1. Harsh -> snenmh.xyz -> GoDaddy
+2. Vijay -> vijayji.xyz -> freedns.centos-webpanel.com
+2. Anil  -> anil.xyz
+
+
+intodns.com -> anil.xyz
+
+
+How to create subdomain ?
+
+vijayji.xyz -> 123 inr /year
+
+https://web.whatsapp.com/
+https://subdomain1.vijayji.xyz
+
+
+https://june26-2025.vijayji.xyz  -> 65.108.149.166 -> /var/www/html/june26-2025.vijayji.xyz/index.html
+
+https://june26-2025.snenmh.xyz   -> 65.108.149.166 -> /var/www/html/june26-2025.snenmh.xyz/index.html
+
+
+
+Client Server Architecture
+
+
+Client -----------------------REquest --------------------> Server (Webserver Nginix/Apache)
+							Apache VirtualHost
+
+/etc/apache2/sites-available/june26-2025.snenmh.xyz.conf
