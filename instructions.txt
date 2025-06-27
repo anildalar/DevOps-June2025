@@ -407,3 +407,53 @@ Client -----------------------REquest --------------------> Server (Webserver Ng
 							Apache VirtualHost
 
 /etc/apache2/sites-available/june26-2025.snenmh.xyz.conf
+
+
+How you can create Subdomain ?
+
+How to create users in Linux?
+How to host their websites in their home directories?
+
+What are the typical locations where we can host a website?
+What are the common directories used to host a website on a Linux system?
+
+1. /var/www/html/<website>/index.html
+2. /home/<username>/public_html/
+
+Who can create Other Linux Users ?
+How we can check users in Linux OS ?
+
+
+Server -> 65.108.149.166
+1. Harsh  /home/harsh/public_html/june27-2025.snenmh.xyz/index.html
+	How you can create Subdomain ?
+	/etc/apache2/sites-available/june27-2025.snenmh.xyz.conf
+
+Harsh  /home/harsh/public_html/june27-2025.snenmh.xyz/index.html
+
+Vipin
+	/home/Vipin/public_html/vipin-june27-2025.snenmh.xyz/index.html
+
+2. Vijay  /home/vijay/public_html/june27-2025.vijayji.xyz
+
+
+
+How to change Ownership of a directory ?
+chown -R <user>:<group> <location>
+
+- U  G  O
+- User Group Other
+-rw-r--r--
+-rwxrwxrwx
+
+r =read
+w =write
+x = execute
+
+change Mode
+chmod -R 755 <location>
+
+
+chown -R www-data:www-data public_html/
+chown -R     user:group    public_html/
+
