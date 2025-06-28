@@ -457,3 +457,48 @@ chmod -R 755 <location>
 chown -R www-data:www-data public_html/
 chown -R     user:group    public_html/
 
+chown -R www-data:www-data public_html/
+chown -R     user:group    public_html/
+
+
+https://harsh1-june27-2025.snenmh.xyz/ 
+
+Should point to 
+
+/home/harsh1/public_html/harsh1-june27-2025.snenmh.xyz/index.html
+/home/harsh1/public_html/harsh1-june27-2025.snenmh.xyz
+
+
+/etc/apache2/sites-available/
+
+ugo
+755
+
+
+systemctl status apache2
+
+active
+
+
+apachectl configtest
+
+
+systemctl restart apache2
+systemctl reload apache2
+
+
+anil ---> root
+
+sudo su
+s -> switch
+u -> user
+
+How we can give normal user full privileges?
+
+anil
+
+sudo usermod -aG sudo anil
+
+Window -> Administrator
+Linux  -> root
+MacOs  -> root
