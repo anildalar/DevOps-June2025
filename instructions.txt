@@ -502,3 +502,60 @@ sudo usermod -aG sudo anil
 Window -> Administrator
 Linux  -> root
 MacOs  -> root
+
+File Permission
+
+Permission String
+-rwxrwxrwx
+----------
+
+-rw-r--r--
+- U  G  O
+- 7  7  7
+- 0  0  0
+
+1. Read
+    Cat <filename>
+2. Write
+     vim <filename>
+3. Execute
+      sh  <shellFile>   ShellScripting
+
+
+How can you jump into other users shell?
+
+user1
+user2
+
+user1  --> user2
+
+su - <userName>
+root ----> Harsh
+
+su - harsh
+
+switch User - <UserName>
+
+
+root   -----> Harsh
+
+Linux is Case Sensitive
+
+harsh.txt
+Harsh.txt
+
+h !== H
+
+In Linux, Which File you can execute ?
+1. ShellScripting Files
+2. Python
+3. Java
+5. Go
+
+ShellScripting Files
+
+anil.sh
+
+#!/bin/bash
+
+echo 'Hello'
