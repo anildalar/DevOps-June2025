@@ -559,3 +559,63 @@ anil.sh
 #!/bin/bash
 
 echo 'Hello'
+
+
+65.108.149.166   -> Software/Website
+65.108.149.167
+
+
+docker.com -> Account Registration
+hub.docker.com
+
+
+Docker -> Image -> hub.docker.com
+
+Photo  ----------> Google Drive
+Code ------------> GitHub
+Docker-> Image -----> hub.docker.com
+
+
+hub.docker.com -> Docker Registry
+
+
+anil Image -------> Docker Registry -> hub.docker.com  
+
+
+SignUp -> Register 
+SingIn -> Login
+
+
+
+You want to work on Docker on the server ?
+
+Docker install ?
+
+systemctl status docker
+
+Start   		--->    Stop    ----> Remove
+active (running)  	--->    inactive (dead)
+
+
+systemctl status docker
+systemctl stop docker
+
+
+
+apt remove docker
+
+apt-get purge docker
+
+27.5.1
+Major.Minor.Patch
+
+
+Docker changelog
+Apache2 changelog
+
+Package Manager
+
+1. APT
+2. Snap
+
+sudo apt-get install --reinstall docker.io -y
