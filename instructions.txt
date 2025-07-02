@@ -619,3 +619,13 @@ Package Manager
 2. Snap
 
 sudo apt-get install --reinstall docker.io -y
+65.108.149.166
+
+
+
+Docker Architecture
+1. Docker Client   -> 	Black Terminal
+2. Docker Daemon   -> 	systemctl status docker
+3. Docker Registry -> 	https://hub.docker.com
+
+How to check if the OS Image is available on our server?
