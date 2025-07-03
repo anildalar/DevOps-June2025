@@ -629,3 +629,61 @@ Docker Architecture
 3. Docker Registry -> 	https://hub.docker.com
 
 How to check if the OS Image is available on our server?
+
+
+How to check if the OS Image is available on our server?
+
+All Docker Command you can run in 2 Modes
+1. Long Command Mode
+	docker image ls
+2. Sort COmmand Mode
+	docker images
+
+OS Image   -------> Multiple Containers
+
+Hardware Vendor
+
+Pendrive ----> OS Image  ---> Custom1,2,3,4
+
+How you can create containers from OS Image?
+
+
+OS Image ---> Container
+
+docker run -p 8080:80 -d debian:latest
+d43bca1f97c24b97fae3885303728d474b4b300f299ff9ea976382fb2a7d6b2d
+
+
+
+OS Image <--- Container
+
+
+
+
+
+anil   -flag1    -flag2
+anil   -flag2	 -flag1
+
+docker run -p hp:cp -d account/image:tag
+docker run -p 80:80 -d debian/Debian:latest  
+
+
+
+docker run  -d    -p
+
+
+What are possible values of Port Nos on computer?
+
+0  -    65535
+
+
+Server --> Single Service 
+
+
+How to check docker images ?
+	docker image ls
+	docker images
+
+How to check docker containers ?
+	docker container ps -a       ps-process  a-all
+	docker ps -a
