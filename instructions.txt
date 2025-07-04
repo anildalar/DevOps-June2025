@@ -687,3 +687,31 @@ How to check docker images ?
 How to check docker containers ?
 	docker container ps -a       ps-process  a-all
 	docker ps -a
+
+65.108.149.166
+
+How to make a container up and running ?
+
+docker run -p 80:80 -d debian/deb
+
+ctrl + F   Find
+up and running
+
+docker run -it -u root --privileged -d ubuntu:latest
+docker run -u root --privileged  -it -d debian:latest
+
+
+docker run -u root --privileged  -it -d kalilinux/kali-rolling:latest
+
+
+docker run ?
+Image -> Container(Up and Running)
+
+
+If your contain is up and running ?
+
+1.	Go inside container
+  	docker container exec -i -t contId shell
+2.	Go outside container
+	exit
+
