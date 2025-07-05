@@ -715,3 +715,39 @@ If your contain is up and running ?
 2.	Go outside container
 	exit
 
+ Host OS    -----> Container OS
+
+
+Find out Host OS ?
+Find our Container OS ?
+
+Where you are  ?
+
+You are inside Host OS 
+	
+
+
+What is your sever RAM ?
+	free -h
+What is your server storage capacity ?
+	df -H
+
+What is Linux Shell ?
+
+1.	BASH
+
+Bourn Again Shell
+
+deepak:x:1027:1027::/home/deepak:/bin/sh
+anil:x:1027:1027::/home/deepak:/bin/bash
+
+65.108.149.166:8080   --->  container ---> /var/www/html/index.html
+
+
+65.108.149.166:70000
+
+docker run -p 60000:80  -u root --privileged  -it -d debian:latest
+
+docker ps
+	PORT
+0.0.0.0:60000->80/tcp
