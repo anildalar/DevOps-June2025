@@ -751,3 +751,26 @@ docker run -p 60000:80  -u root --privileged  -it -d debian:latest
 docker ps
 	PORT
 0.0.0.0:60000->80/tcp
+
+
+65.108.149.166
+
+https://snenmh.xyz  --> HOST Machine ---> /var/www/html/snenmh.com/index.html 
+https://vijayji.xyz --> HOST Machine ---> /var/www/html/vijayji.com/index.html 
+
+
+
+https://snenmh.xyz  --> Container 8080 ---> /var/www/html/snenmh.com/index.html 
+https://vijayji.xyz --> Container 8081 ---> /var/www/html/vijayji.com/index.html 
+
+
+
+How you can stop a docker container ?
+	docker container stop <contId/contName>
+
+How you can stop all docker container in a single command ?
+	docker container stop $(docker ps -aq)
+
+How you can remove all docker container in a single command ?
+	docker container rm $(docker ps -aq)
+
