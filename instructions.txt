@@ -774,3 +774,78 @@ How you can stop all docker container in a single command ?
 How you can remove all docker container in a single command ?
 	docker container rm $(docker ps -aq)
 
+
+
+
+Every Application that we deploy on the server should be in 
+Docker Container.
+
+
+Setup MySQL(Database) and PhpMyAdmin using Reverse Proxy
+
+
+Long Command
+	docker image pull mysql:latest
+Short Command
+	docker pull mysql:latest
+
+
+docker image pull phpmyadmin:latest
+docker pull phpmyadmin:fpm-alpine
+
+
+
+Database + GUI (Graphical User Interface)
+
+MySQL    + PhpMyAdmin
+
+
+Image   ----> Containers
+
+
+docker run -d \
+  --name mysql-container \
+  -e MYSQL_ROOT_PASSWORD=my-secret-pw \
+  -e MYSQL_DATABASE=mydb \
+  -e MYSQL_USER=myuser \
+  -e MYSQL_PASSWORD=mypassword \
+  -p 3306:3306 \
+  mysql:latest
+
+docker run -d -e MYSQL_ROOT_PASSWORD=123 -p 3306:3306 mysql:latest
+
+
+e = environment
+
+Column1 Column2
+Name	Surname
+Anil 	Dollor
+
+Database ---> Table -----> Data(Anil Dollor)
+
+
+How to go inside a Database?
+
+use <databaseName>;
+
+
+a_db
+    a_tbl
+
+
+
+1.	Database banao
+	create database <dbName>;
+2.	Database show karo
+	show databases;
+3.	Tables Banao
+	create table 
+4.	Tables show karo
+	 show tables;
+5.	Table structure show karo
+	explain <tableName>;
+6. Store information
+	insert into
+7. Show the stored information
+	select * from <tableName>;
+
