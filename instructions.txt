@@ -849,3 +849,69 @@ a_db
 7. Show the stored information
 	select * from <tableName>;
 
+How to setup MySQL Database Docker container ?
+
+docker image pull mysql:latest
+docker image pull mariadb:latest
+
+docker image pull mariadb:latest
+
+Ctrl + F = Find	
+
+SQL Command
+ Database
+	Tables
+	      Data
+
+docker run --detach --name some-mariadb --env MARIADB_ROOT_PASSWORD=my-secret-pw mariadb:latest
+docker run -d --env MARIADB_ROOT_PASSWORD=123 mariadb:latest
+
+
+
+
+mariadb -u <user> -p
+
+
+
+mariadb -u root -p123
+
+mariadb -u root -p
+123
+
+Sequence for practice of SQL Commands
+1. Show database;
+2. create database a_db;
+3. show databases;
+4. go inside database
+	use <dbName>;
+	use a_db;
+5. show tables;
+6. create table <tableName>(
+	colname datatype,
+	colname datatype
+   );
+7. show tables;
+8. describe <tablename>;
+   desc     <tablename>
+   explain  <tablename>
+
+9. insert into <tableName>;
+10. select * from <tableName>;
+
+
+
+CLI = Command Line Interface   
+GUI = Graphical User Interface i.e PhpMyAdmin
+
+Lets setup the GUI PHPMYADMIN
+
+a_db  --- CLI
+b_db  ---- GUI
+
+docker run -d \
+  --name phpmyadmin \
+  --link confident_panini:db \
+  -p 8080:80 \
+  -e PMA_HOST=db \
+  -e PMA_PORT=3306 \
+  phpmyadmin:latest
