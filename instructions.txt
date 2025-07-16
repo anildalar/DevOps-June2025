@@ -915,3 +915,91 @@ docker run -d \
   -e PMA_HOST=db \
   -e PMA_PORT=3306 \
   phpmyadmin:latest
+
+DevOps Course
+Buy Server from Contabo for 1 year
+Credit Cards
+
+
+International Debit Card
+VISA/Mastercard
+
+
+MasterCard Debit International Enable
+VISA Debit International Enable
+
+
+Control Panel
+1. Ubuntu 24.x
+
+
+
+5-10min.
+
+
+.SHxq%K.@W5C=   ----> 123  	    (Terminal)
+		----> aQvvAeW8P~C/  (CP)
+I want to change my server password ?
+1. Control Panel
+	
+2. Terminal
+	2.1 passwd 
+		newpass
+		confirmpass
+
+ssh root@185.217.126.127
+How to handle "REMOTE HOST IDENTIFICATION HAS CHANGED! " Error ?
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+ssh-keygen -R 185.217.126.127
+
+
+MOTD
+Motivation Of the Day
+
+vim /etc/motd
+
+Welcome to Ubuntu 22.04.5 LTS (GNU/Linux 5.15.0-25-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/pro
+New release '24.04.2 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+  _____
+ / ___/___  _  _ _____ _   ___  ___
+| |   / _ \| \| |_   _/ \ | _ )/ _ \
+| |__| (_) | .` | | |/ _ \| _ \ (_) |
+ \____\___/|_|\_| |_/_/ \_|___/\___/
+
+Welcome!
+
+This server is hosted by Contabo. If you have any questions or need help,
+please don't hesitate to contact us at support@contabo.com.
+
+Last login: Wed Jul 16 04:55:46 2025 from 171.60.152.182
+
+
+
+
+How to login to a server without password ?
+How to you can use password less authentication ?
+
+1. using id_rsa file.
+
+You need ssh keypair 
+1. Public Key  id_rsa.pub  (Remote Server)   ----> ~/.ssh/authorized_keys
+2. Privat Key  id_rsa      (local Machine) 
+	
+
+I want to generate a ssh key pair
+
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+command -flag1 flag1Value -flag2 flag2Value -flag3 flag3Value
+command --help
+
