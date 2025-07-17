@@ -1003,3 +1003,33 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 command -flag1 flag1Value -flag2 flag2Value -flag3 flag3Value
 command --help
 
+Setup phpMyAdmin(pma+mysqldb) on a subdomain with https
+
+https://pma.snenmh.xyz
+
+Reverse Proxy
+
+https://pma.snenmh.xyz   ---->  https://ip:8080  
+
+ping pma.snenmh.xyz -t
+
+pma = phpmyadmin
+
+
+
+=CG?X6rqs77UA?
+
+docker run -d --env MARIADB_ROOT_PASSWORD=123 mariadb:latest
+docker run -d -p 9092:80 -e PMA_HOST=adoring_mcnulty -e PMA_PORT=3306 phpmyadmin:latest
+
+docker run -d -p 9091:80 -e PMA_HOST=localhost -e PMA_PORT=3306 phpmyadmin:latest
+
+docker run -d -p 9090:80 -e PMA_HOST=db -e PMA_PORT=3306 phpmyadmin:latest
+
+
+
+
+
+
+HTTP  = 80
+HTTPS = 443
