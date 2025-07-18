@@ -1026,10 +1026,32 @@ docker run -d -p 9091:80 -e PMA_HOST=localhost -e PMA_PORT=3306 phpmyadmin:lates
 
 docker run -d -p 9090:80 -e PMA_HOST=db -e PMA_PORT=3306 phpmyadmin:latest
 
-
-
-
-
-
 HTTP  = 80
 HTTPS = 443
+
+How to create Docker Image using Dockerfile ?
+Dockerfile  --> Docker Image ----> Container1,2,3,4,5
+
+Dockerfile is a simple test file 
+Instruction 
+
+EXPOSE = OPEN
+
+How to get Automatic SSL Certificate when Container is up and running?
+
+
+185.217.126.127
+?!n2aD=3,@^knp
+
+
+Dockerfile  ----ImageBuild-----> Docker Image
+
+
+anil:t1
+
+
+1. docker image build -t account/image:tag dir
+2. docker image build -t oklabs/anil:t2
+3. docker image ls
+3  docker images
+4. docker run --restart=always -p 7071:80 -d oklabs/anil:t2
