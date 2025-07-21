@@ -1055,3 +1055,69 @@ anil:t1
 3. docker image ls
 3  docker images
 4. docker run --restart=always -p 7071:80 -d oklabs/anil:t2
+
+
+
+How to get Automatic SSL Certificate when Container is up and running?
+
+1. DNS Panel -> A Record --> ServerIP
+
+	msg.snenmh.xyz --->  185.217.126.127
+
+2. Server Format
+3. 
+
+
+
+,e.tB3vk&aa
+
+docker run -p 8000:80 -it -u root --privileged -d ubuntu:latest
+
+
+1. Docker
+2. DOcker-compose
+
+apt update && apt upgrade -y
+
+Shell Scripting
+
+.env
+setup.sh
+
+w3xXM8k+?4v
+
+1. apt update -y && apt upgrade -y
+2. docker --version
+3. docker-compose version
+
+
+dpkg = Debian Package
+
+apt install docker.io docker-compose -y
+
+
+
+Dockerfile
+
+docker image build  ---> Dockerfile           ---> Image build
+
+docker-compose      ---> docker-compose.yaml  ---> Container
+
+docker-compose -f docker-compose.yaml up -d --build
+
+
+docker run -p 8000:80 -it -u root --privileged -d ubuntu:latest
+
+
+
+docker-compose -f docker-compose.yaml up -d --build
+
+
+docker run Vs docker-compose
+
+  Avoid          Correct
+
+docker-compose (Yaml)   -----> K8s (Yaml File)
+
+
+
