@@ -1120,4 +1120,12 @@ docker run Vs docker-compose
 docker-compose (Yaml)   -----> K8s (Yaml File)
 
 
+How to provision MySQL and PhpMyAdmin with Docker Compose ?
 
+185.217.126.127
+
+MySQL - Database(Parent)
+PMA   - GUI     (Child)
+
+PostGres -  Database
+PGAdmin  -  GUI
