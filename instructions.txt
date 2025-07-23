@@ -1129,3 +1129,39 @@ PMA   - GUI     (Child)
 
 PostGres -  Database
 PGAdmin  -  GUI
+
+Provision your Apps with Centralized .env file
+
+What is .env ?
+What we can do with .env ?
+
+You can store your constants/Variable .
+
+.env file
+
+Provision MySQL and PMA using Docker compose with .env?
+
+
+MySQL Constants ?
+	MYSQL_ROOT_PASSWORD: rootpassword                                                                 	MYSQL_DATABASE: mydb                                                                              	MYSQL_USER: myuser                                                                                	MYSQL_PASSWORD: mypassword
+PMA Constant ?
+	PMA_HOST: mysql                                                                                   	PMA_PORT: 3306
+      	PMA_USER: root
+      	PMA_PASSWORD: rootpassword
+
+
+MySQL - Database(Parent)
+PMA   - GUI     (Child)
+
+PostGres -  Database
+PGAdmin  -  GUI
+
+MongoDB -  Database
+MongoDBAlasin  -  GUI
+
+Redis  	    -  Database
+RedisInsite - GUI
+
+Stop   -> Remove
+
+docker-compose -f docker-compose.yaml up -d --build
