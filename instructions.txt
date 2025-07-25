@@ -1165,3 +1165,103 @@ RedisInsite - GUI
 Stop   -> Remove
 
 docker-compose -f docker-compose.yaml up -d --build
+
+
+Server
+
+Contabo.com
+
+185.217.126.127
+kST2qh%.)KD
+username = root
+
+1. Cpanel Login
+2. Server Format/Reinstall
+3. Select Linux OS  -> Ubuntu
+	Android OS -> KitKat,Lolipop,Donugt,
+
+4. Pending ------> Running   -------> finished (5min)
+5. Win + R ------> Run Utility
+6. cmd  -> enter
+7. Ping the server
+   7.1 ping serverip -t
+       ping 185.217.126.127 -t
+8. If you are getting reply then you can login to server
+9. How to login with your server?
+
+    ssh username@ip
+    ssh root@185.217.126.127
+10. If you see "REMOTE HOST IDENTIFICATION HAS CHANGED!" 
+   10.1 ssh-keygen -R 185.217.126.127
+   10.2 root@185.217.126.127
+
+11. Check your OS ?
+	cat /etc/os-release
+12. Update/Upgrade Your OS ?
+
+13. Install Docker ?	
+
+cls command is used to clear the console
+
+
+cls  -> Windows OS Console Clear
+clear-> Linux OS Console Clear
+
+
+Terminal/Console
+
+clear 
+Ctrl + L
+
+
+SeverBUY --> Contabo.com --> Physical Server ---> OS -> Ubuntu 22.x
+
+
+HostOS 
+
+
+
+
+Update your OS ?
+	apt update -y
+Upgrade Your OS ?
+	apt upgrade -y
+
+apt - Advanced Package Tool
+
+
+Install Docker 
+
+Docker provide us Virtual OS 
+
+HostOS  -> VirtualOS+Apps (Docker)
+
+HostOS + Apps
+
+How to install Docker ?
+
+apt install docker.io 
+apt install docker-compose -y
+
+
+docker --version
+27.5.1
+MajorNo.MinorNo.PatchNo
+
+docker-compose --version
+1.29.2
+
+
+
+
+apt install from which location which website ?
+
+http://archive.ubuntu.com/ubuntu
+http://security.ubuntu.com/ubuntu
+
+https://hub.docker.com/
+create account on this wegbsite
+
+1. LandingPage
+2. HomePage
+3. DashboardPage
