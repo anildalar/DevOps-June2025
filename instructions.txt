@@ -1262,6 +1262,37 @@ http://security.ubuntu.com/ubuntu
 https://hub.docker.com/
 create account on this wegbsite
 
-1. LandingPage
-2. HomePage
-3. DashboardPage
+The most important files for any docker application
+
+How to show all containers ?
+docker container ps -a
+docker ps -a
+
+
+
+1. Create a centralized .env
+2. docker-compose.yaml
+3. Dockerfile
+4. entrypoint.sh
+
+How to provision/deployment PostGres and PGAdmin using docker compose ?
+
+PostGres -  Database
+PGAdmin  -  GUI
+
+Go to docker registry
+
+docker-compose -f docker-compose.yaml up -d --build
+
+If your docker container is failing.
+You need to check its log
+
+
+docker logs -f <contName/contId>
+
+How to stop all docker container in a single command ?
+docker container stop $(docker ps -aq)
+
+
+
+0.0.0.0:8080->8080/tcp
