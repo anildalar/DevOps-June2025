@@ -1296,3 +1296,79 @@ docker container stop $(docker ps -aq)
 
 
 0.0.0.0:8080->8080/tcp
+
+
+
+
+Provision MongoDB and MongoDB Compass with DockerCompose using .env using HTTPS?
+Reverse Proxy
+
+https://mongo.snenmh.xyz
+
+https://subdomain.primarydomain.tld
+
+https://www.amazon.in
+https://www.flipkart.com
+
+
+https://mongo.snenmh.xyz  -----> MongoDB Compass
+version: '3.8'
+
+services:
+  mongodb:
+    image: bitnami/mongodb:latest
+    container_name: mongodb
+    environment:
+      - MONGODB_ROOT_USER=root
+      - MONGODB_ROOT_PASSWORD=${MONGO_ROOT_PASSWORD}
+    volumes:
+      - mongodb_data:/bitnami/mongodb
+    ports:
+      - "27017:27017"
+
+  mongo-express:
+    image: mongo-express
+    container_name: mongo-express
+    environment:
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=root
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=${MONGO_ROOT_PASSWORD}
+      - ME_CONFIG_MONGODB_SERVER=mongodb
+    depends_on:
+      - mongodb
+    ports:
+      - "8081:8081"
+
+volumes:
+  mongodb_data:
+
+
+Port No Range ?
+0- 65335
+"8081:8081"
+  "HP:CP"
+HP = Host Port
+CP = Container Port
+vim ?
+vi 
+Visual Editor Improved
+
+docker-compose -f docker-compose.yaml up -d --build
+
+https://mongo.snenmh.xyz  -----> MongoDB Express
+A Record in DNS Panel     -----> 185.217.126.127:8081
+
+
+mongodb://root:12345678@185.217.126.127:27017
+
+
+Database ---> Table ----> Data
+Database ---> Collection ----> Anil Dollor
+
+SQL   -> Table
+NoSQL -> Collection
+
+
+a_db (GUI)
+	a_tbl  
+b_db (CLI)
+	b_tbl
