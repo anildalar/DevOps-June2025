@@ -1372,3 +1372,40 @@ a_db (GUI)
 	a_tbl  
 b_db (CLI)
 	b_tbl
+
+
+185.217.126.127
+4kP(HF5W~^%S%
+
+Create backup script of database
+
+Live Project
+1. Backup Strategy
+
+
+Database Backup ? Save ?
+db.sql -> 200MB (49MP x 5)
+
+
+1. Telegram  UNLIMITE data < 50MB
+	8:00 AM
+	14:00 PM
+	20:00 PM
+
+2. Telegram BOT
+3. BotFather (v)
+4. /newbot
+5. dbbackup_bot
+6. anil_dbbackup_bot
+
+Bot Token ?
+8096341529:AAFt4mMWlDLk1gPIa2Mu2awqpNBSqMTOvvQ
+CHAT_ID  ?
+https://api.telegram.org/bot<YOUR_BOT_TOKEN>/getUpdates
+
+
+What is PostMan 
+
+Postman is api testing tool
+Api ? 
+Application Programing Interface
