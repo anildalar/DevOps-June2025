@@ -1409,3 +1409,164 @@ What is PostMan
 Postman is api testing tool
 Api ? 
 Application Programing Interface
+
+
+volumes:
+      - ./northwind.sql:/docker-entrypoint-initdb.d/northwind.sql
+		     HV:CV
+
+
+
+
+Mongodb Compass(Local Laptop) ---------------------------------> Mongodb(Server)
+
+How to connect your MySQL/MariaDB/Postgress from Local Workbench?
+
+
+MySQL Workbench(Local Laptop) ---------------------------------> MySQL(Server)
+ 0.0.0.0:3306->3306/tcp
+	   HP->CP
+
+Port Mapping
+
+
+Telegram Backup Part 2
+
+MySQL + PMA + Workbench
+
+PMA (Website)
+Workbench (Local Software)
+
+
+MongoDB Compass (Local Software)
+
+
+185.217.126.127
+j5-:k#Px@=88A!
+
+
+1. Create a centralized .env
+2. docker-compose.yaml
+3. Dockerfile
+4. entrypoint.sh
+
+
+
+.env
+	CONSTANT
+
+
+If you want to connect MySQL/Mariab/Postgress from local system
+
+
+Laptop -----------------------------> 185.  (MySQL)
+LocalSoft
+Workbench --------------------------> 185.x.x.x:3306
+
+You have do Port Mapping
+
+HP:CP
+HostPort:ContainerPort
+    3306:3306
+
+
+root
+notSecureChangeMe
+
+
+rakesh_user
+rakesh_password
+
+
+120017558  -------------> 114.4
+Byte ---> KiloByte -----> MegaByte
+	1024
+
+185.217.126.127
+g$bX$7,Pf2W
+
+
+
+
+We want database backup everyday at 
+8:00
+14:00
+20:00
+?
+
+
+Backup Script that 
+1. dump sql  350mb
+2. Highly Compress Zip  --> 30mb
+3. Split into 49mb
+
+
+
+
+How to connect PostGressDB with PGAdmin Locally.
+
+185.217.126.127
+ia#tmNe546oJdt 
+
+
+PGAdmin GUI
+1. Website -> pGAdmin/Adminer
+2. Desktop Software
+
+If you want to connect your Db with External Client
+1. You have to open DB Port (Port Mapping)
+
+ports:                                                                                                                 - "5432:5432"
+     HP:CP
+
+How to create CI/CD pipeline using Jenkins(Website) ?
+
+CI/CD ?
+
+GitHub ----> Public Link ---> https://asdksdf.githb.com
+
+User --->SourceCode ------->Github----CI/CD-->Public Link (https://)
+
+CI = Continuous Integration
+CD = Continuous Delivery
+
+
+What is the purpose of Ci/CD pipeline ?
+1. To provide Public Endpoint
+
+
+How you can create your own custom CI/CD Pipeline ?
+
+Jenkins 
+?
+Free
+OpenSource
+
+
+Jenkins Vs Atlassian Bamboo
+
+
+How to deploy Jenkins on our server 185.x.x.x
+
+Docker ?
+
+Docker Registry --> Jenkins Image
+
+https://hub.docker.com
+
+
+
+Docker PPT Sheet No 329
+
+Docker PPT Sheet No 173
+
+docker run -p 8080:8080 -d  account/image:tag
+docker run -p 9090:8080 -d  jenkins/jenkins:latest
+
+1. Docker run
+2. Docker Compose ----> docker-compose.yaml
+
+
+
+185.217.126.127
+P.574c4F2(Vi=
