@@ -1570,3 +1570,33 @@ docker run -p 9090:8080 -d  jenkins/jenkins:latest
 
 185.217.126.127
 P.574c4F2(Vi=
+
+Create a Simple CI/CD Pipeline using Jenkins Part 1
+
+
+docker run -p 8080:8080 -d  jenkins/jenkins:latest
+
+Jenkins Password?
+1. docker logs
+2. Go inside docker container
+
+
+How to go inside container ?
+docker container exec
+docker exec
+
+bash ?
+Shell
+Bourn Again Shell
+
+
+User -----Push-----> Github------Webhook------>(Jenkins)http://185.217.126.127:8080/github-webhook/
+
+Code---------------> Github
+
+http://<jenkins-server-host>/github-webhook/
+
+
+Lets Create Jenkins CI/CD Pipeline
+
+Jenkins JOBS
