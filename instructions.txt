@@ -1600,3 +1600,29 @@ http://<jenkins-server-host>/github-webhook/
 Lets Create Jenkins CI/CD Pipeline
 
 Jenkins JOBS
+
+Jenkinsfile ------> Define your Pipeline
+
+
+Dockerfile ------> DockerImage
+
+
+
+How to define Instructions for Jenkins Pipeline?
+1. Dashboard --> Setup Pipeline -> Instruction
+2. Create a file Called "Jenkinsfile" at the root level of project directory
+
+
+185.217.126.127
+*-q$K,j=ST4~
+
+
+Declarative Pipeline.
+
+
+pipeline > stages > Stage >  Step
+
+Jenkins Pipeline Workspace ?
+
+
+jenkins@b9566b14daad:/$ cd /var/jenkins_home/workspace/11aug25 - cicdpipeline
