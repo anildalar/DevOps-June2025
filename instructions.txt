@@ -1626,3 +1626,18 @@ Jenkins Pipeline Workspace ?
 
 
 jenkins@b9566b14daad:/$ cd /var/jenkins_home/workspace/11aug25 - cicdpipeline
+
+
+ReactJS 	-> 	Nodejs
+Django  	-> 	Python
+SpringBoot 	-->	Java
+
+
+
+Create a CI/CD Pipeline for ReactJs Application ?
+
+docker run -p 8080:8080 -d --restart unless-stopped  jenkins/jenkins:latest
+
+
+
+npm - node package Manager
