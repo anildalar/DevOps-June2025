@@ -1641,3 +1641,113 @@ docker run -p 8080:8080 -d --restart unless-stopped  jenkins/jenkins:latest
 
 
 npm - node package Manager
+
+
+
+Production Environment
+1. Jenkins Server (Build Server) 185.217.126.127
+2. Deploy Server                 185.217.126.127
+
+How we deploy our App(ReactJs) ?
+2. Docker Container Deploy ?
+ ReactJs Container 
+
+Dockerfile
+
+Readymade ReactJs   --> hub.docker.com
+	
+
+
+docker pull account/image:tag
+docker pull openeuler/react:latest
+
+
+ReacJs -> 185.217.126.127:5173
+
+8080 
+3030
+
+
+localhost:5173
+
+
+
+How you can enter into the server ?
+1. username password
+2. password less authentication  id_rsa
+
+
+185.217.126.127
+root
+%ncjrW:2U@!
+
+
+anil.txt  -> hello
+
+
+SSH Agent Plugin:
+
+
+generate your ssh-keypair
+
+ssh-keygen -t rsa -b 4096 -C "jenkins"
+
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCtH9WEVE/u01UAeOeKnQ9Hq76QYIvlTkruezoOLh+j1uEi8OtLOrurYk/ecCoVWRisIN3D6AnuXrfSVgblPFsj5PPTXyVeiUtMaCTqeVxZgcsK0BhnVmyL9l2RO5n6h2M4xCDnrzrWspssJSH2jxF/qFLOJ0FPPMEeb13vEJIDQ3+YfwdbpSHa+CG/LH8vW8G3cTR/cyRzs7ttxjjbog/5qFhe6KZlO7hrAme4WILWXPQM1YEIidcsqkgphHTdoVlwQtH7/GRMStN4tCzyFjR4u9aM6ELNF6vX5NCHnXglzRfUBBIaInaRdGoTTmOfYEHAXq2//8KJYEZ8PMC1tq+mDgMWeDSgo4u4OonOJhpbz+BRm6jMrSuM3f/nDZFw7sgbBrS54+kLhKcTtqeJQwX1/G+ETsRN97tWuG3u2ovMSEKNKU6AzhCbg5mD39hMT/uWJ9gZtbm/hl+h9qC06tkuowOO7mwyFZvIMvp7WFffBd9o+CeJvlJQiWENl5WbZmKbu9aqmZytN6C4gyLI1dVxmZbxmZCs/hghjb7hN4sxcXa3HtUQX6oFNvZf9FoemziqOudv8LaHcI3vrF25CSVv5KGwyNw97nI3jIKyjbQt2AU4kOleY/LKQeuhYj/HJ1cFR6Pxk/Zpgfkg3PkAMndvpROqYEXqCCwLdPq28K2DaQ== Jenkins
+
+
+
+
+.ssh/authorized_keys
+
+/root/.ssh/authorized_keys
+
+docker pull coderenterprise/react
+docker pull dongbbb/blog-react
+
+
+docker run -d --restart unless-stopped -p 9090:80 dongbbb/blog-react:latest
+
+
+docker pull openeuler/react:19.1.1-oe2403sp1
+
+docker run -d --restart unless-stopped -p 9091:80 openeuler/react:19.1.1-oe2403sp1
+docker run -d --restart unless-stopped -p 9094:80 thanhlep/reactjs-web
+docker pull recipeyak/react:203be8e9ce1bbf507af56f98cfdf259e1eae659d
+
+
+
+docker run -d --restart unless-stopped -p 9094:80 thanhlep/reactjs-web
+docker run -d --restart unless-stopped -p 9095:5173 thanhlep/reactjs-web
+
+
+docker run -d -p 3000:3000 --restart unless-stopped openeuler/react:latest
+
+docker run -d -p 8080:80 --restart unless-stopped alekzonder/react-nginx
+
+
+185.217.126.127
+root
+%ncjrW:2U@!
+
+
+How to upload your own docker image and upload to Docker Hub ?
+
+
+1. Create a Dockerfile
+2. Create an Image from Dockerfile
+
+	Dockerfile -----Image Build-----> Docker Image ---> DockerHub
+
+	docker image build -t account/ImageName:TagName dir
+	docker image build -t oklabs/22aug2025:t1 .
+3. docker login
+4. docker image push
+	docker image push oklabs/22aug2025:t1
+
+oklabs
+
+PULL = Download
+PUSH = Upload
+
