@@ -1751,3 +1751,19 @@ oklabs
 PULL = Download
 PUSH = Upload
 
+https://jennykibiri.hashnode.dev/jenkins-pipeline-to-build-and-deploy-a-frontend-application-on-aws-ec2
+
+
+
+
+1. Create a centralized .env
+2. docker-compose.yaml
+3. Dockerfile
+4. entrypoint.sh
+5. Project
+
+
+
+Dockerfile ---> Docker Image -----> Docker Container1, Contianer2, ...
+
+docker run -d -p 8080:80 oklabs/image1:tag2
