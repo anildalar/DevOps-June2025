@@ -1919,3 +1919,52 @@ docker run -p 5000:4200 -d -v $(pwd)/project/frontend:/app v /app/node_modules -
 
 
 Volume Mounting
+
+
+185.217.126.127
+root
++4XddCRj8Mw6
+
+Frontend Framework
+
+1. ReactJs (Meta/Facebook) -> Docker COntainer
+	Javascript
+	Typescript (Adv. Version Of JS)
+2. AngularJs (Google) -> Docker Container
+	Javascript
+	TypeScript (Adv. Version Of JS)
+3. VueJS 
+
+
+1. Lets create a Frontend VueJs Application Docker Container
+2. Can you create an image from running container ?
+
+1. Create a centralized .env
+2. docker-compose.yaml
+3. Dockerfile
+4. entrypoint.sh
+5. project
+	5.1 frontend
+	5.2 backend
+6. Jenkinsfile
+
+
+
+Can you create an image from running container ?
+Docker Image(Dockerfile) -> Docker Container(docker run)
+
+Running Container -> Docker Image ---> Send to Docker Registry?
+
+
+npm run dev -- --host 0.0.0.0
+
+docker image rmi $(docker images -q)
+
+
+docker image build -f Dockerfile.vuejs -t oklabs/vuejs:n20_1 .
+
+docker run -p HP:CP
+docker run -p 5000:8080 -d -v $(pwd)/project/frontend:/app -v /app/node_modules --restart unless-stopped  oklabs/vuejs:n20_1
+
+
+docker run -p 5173:5173 -d -v $(pwd)/project/frontend:/app -v /app/node_modules --restart unless-stopped  oklabs/vuejs:n18_1
