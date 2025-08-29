@@ -1968,3 +1968,66 @@ docker run -p 5000:8080 -d -v $(pwd)/project/frontend:/app -v /app/node_modules 
 
 
 docker run -p 5173:5173 -d -v $(pwd)/project/frontend:/app -v /app/node_modules --restart unless-stopped  oklabs/vuejs:n18_1
+
+185.217.126.127
+root
+j_Q,un:7qu3
+
+1. How to create an image from running container ?
+	docker container commit 
+	docker commit  
+
+	Dockerfile---->DockerImage-> DockerContainer ----> DockerImage--->DockerRegistry
+
+2. Create your first backend container using Strapi CMS ?
+   CMS = Content Management System
+
+
+
+DockerContainer(Running) ---docker container stop--->DockerContainer(Stopped)----(docker commit) --> DockerImage
+
+
+
+
+docker run -p 9090:80 -d --restart unless-stopped  oklabs/u29aug25:t1
+
+
+
+docker container commit 
+
+
+docker run -p 9090:80 -d --restart unless-stopped  oklabs/u29aug25:t1
+
+
+
+
+
+docker run -p 7070:80 -d --restart unless-stopped  oklabs/u29aug25:t2
+
+
+How to create an image from running container ?
+1. Docker container stop
+2. Docker container commit
+3. docker login
+4. docker image push
+5. docker run    ---> Test
+
+
+Create your first backend container using Strapi CMS ?
+   CMS = Content Management System
+
+Strapi is a backend System
+Strapi is CMS (Content Management System)
+
+
+Install Strapi on Host Machine
+
+backend/npm run develop
+
+ cat package.json
+
+npm run develop   -> strapi develop
+npm run dev   	  -> strapi develop
+
+
+1337
