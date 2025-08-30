@@ -1852,6 +1852,54 @@ WORKDIR /app
 COPY frontend/package*.json ./
 RUN npm install
 
+185.217.126.127
+root
+_7MJ$d9=CXt:T
+
+
+
+
+
+2. Create your first backend container using Strapi CMS ?
+   CMS = Content Management System
+ Backend System
+
+
+1. Create a centralized .env
+2. docker-compose.yaml
+3. Dockerfile
+4. entrypoint.sh
+5. project
+	5.1 frontend
+	5.2 backend
+6. Jenkinsfile
+7. .dockerignore
+
+
+docker-compose.yaml
+Dockerfile.strapi
+entrypoint.sh
+.env
+Jenkinsfile
+project
+
+
+docker image build -f Dockerfile.strapi -t oklabs/strapi:v5_n20_1 .
+
+To build and run a container
+1. Docker Compose
+2. Docker run
+	docker run -p 1337:1337 -d --restart unless-stopped oklabs/strapi:v5_n20_1
+
+
+COPY S D
+MV S D
+
+docker compose -f docker-compose.yaml up -d --build
+
+apt install docker.io docker-compose
+docker-compose -f docker-compose.yaml up -d --build
+
 # Copy project files
 COPY frontend/ .
 
