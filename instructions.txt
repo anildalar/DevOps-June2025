@@ -2079,3 +2079,26 @@ npm run dev   	  -> strapi develop
 
 
 1337
+
+185.217.126.127
+root
+B!P27v(G(U%q=
+
+
+Lets deploy a backend application using Docker 
+1. Strapi (CMS - Content Managmenent System)
+
+First Install On Host and Test
+Then Create via Docker
+
+1. .env
+2. docker-compose.yaml
+3. Dockerfile
+4. entrypoint.sh
+5. project
+	5.1 frontend
+	5.2 backend
+6. Jenkinsfile
+7. .dockerignore
+
+project/backend/package*.json ./
