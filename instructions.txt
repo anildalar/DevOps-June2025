@@ -2102,3 +2102,123 @@ Then Create via Docker
 7. .dockerignore
 
 project/backend/package*.json ./
+
+
+python3 --version
+python --version  x
+
+
+Nodejs  ----> Package.json
+Python -----> requirements.txt
+
+Virtual Environment
+
+apt install python3.10-venv
+
+Syntax
+	python3 -m venv <YoutEnvName>
+
+Example
+	python3 -m venv anilvenv
+	python3 -m venv vijaymyenv
+
+	source anilvenv/bin/activate
+
+
+NodeJs   Package Manager   NPM/NPX/YARN
+Python   Package Manager   PIP
+pip 
+
+NodeJs
+	node -v
+	npm -v
+
+Python
+
+	python3 --version
+	pip --version
+
+3.10.12
+Major.Minro.Patch
+
+
+django-admin startproject backend
+python3 manage.py runserver 0.0.0.0:8000
+
+
+185.217.126.127
+root
+5lu*Wzk0JV4iqqoh
+
+
+PIP
+Pip Installs Packages
+Python Index Packages
+
+python3 manage.py createsuperuser
+
+
+
+Strapi CMS   -> SQLite
+Django Python WebFramework   -> SQLite/MySQL/PostGress/MongoDB
+
+
+
+oklabs
+oklabs
+
+
+anil
+anil
+
+(anilvenv) root@vmi2709525:~/anil# tree
+.
+├── Dockerfile
+├── Jenkinsfile
+├── docker-compose.yaml
+└── project
+    ├── backend
+    │   ├── anilvenv
+    │   │   ├── bin
+    │   │   │   ├── Activate.ps1
+    │   │   │   ├── activate
+    │   │   │   ├── activate.csh
+    │   │   │   ├── activate.fish
+    │   │   │   ├── django-admin
+    │   │   │   ├── pip
+    │   │   │   ├── pip3
+    │   │   │   ├── pip3.10
+    │   │   │   ├── python -> python3
+    │   │   │   ├── python3 -> /usr/bin/python3
+    │   │   │   ├── python3.10 -> python3
+    │   │   │   └── sqlformat
+    │   │   ├── include
+    │   │   ├── lib
+    │   │   ├── lib64 -> lib
+    │   │   └── pyvenv.cfg
+    │   └── backend
+    │       ├── backend
+    │       │   ├── __init__.py
+    │       │   ├── __pycache__
+    │       │   │   ├── __init__.cpython-310.pyc
+    │       │   │   ├── settings.cpython-310.pyc
+    │       │   │   ├── urls.cpython-310.pyc
+    │       │   │   └── wsgi.cpython-310.pyc
+    │       │   ├── asgi.py
+    │       │   ├── settings.py
+    │       │   ├── urls.py
+    │       │   └── wsgi.py
+    │       ├── db.sqlite3
+    │       └── manage.py
+    └── frontend
+
+
+
+
+package.json   =   requirements.txt
+
+npm            =   pip
+
+
+docker compose -f docker-compose.yaml up -d --build
+
