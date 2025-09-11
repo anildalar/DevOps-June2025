@@ -2222,3 +2222,62 @@ npm            =   pip
 
 docker compose -f docker-compose.yaml up -d --build
 
+185.217.126.127
+root
+H5!8P1erySwtzhlx
+
+
+
+
+1. Django + SQLite + GUI
+2. Django + MySQL + PMA
+3. Django + PostGress + PGAdmin
+
+
+1. .env
+2. docker-compose.yaml
+3. Dockerfile
+4. entrypoint.sh
+5. project
+	5.1 frontend
+	5.2 backend
+6. Jenkinsfile
+7. .dockerignore
+
+
+
+First Install Django on HOstmachine
+
+pip install --upgrade pip
+pip install django
+
+1. /anil/project/backend# pip install --upgrade pip
+2. /anil/project/backend# python3 -m venv anilvenv
+1. /anil/project/backend# pip install django
+2. /anil/project/backend# django-admin startproject backend
+3. /anil/project/backend# cd backend
+4. /anil/project/backend/backend# python3 manage.py runserver 0.0.0.0:8000
+
+
+
+Install Django on Hostmachine
+Install MySQL and PhpMyAdmin on Hostmachine 
+
+1. sudo apt update && sudo apt upgrade -y
+2. sudo apt install apache2 -y
+2. sudo apt install mysql-server -y
+3. sudo systemctl enable mysql
+4. sudo systemctl start mysql
+5. systemctl status mysql
+5. service mysql status
+6. sudo mysql_secure_installation
+7. CREATE DATABASE django_db;
+8. CREATE USER 'django_user'@'localhost' IDENTIFIED BY 'djangopass';
+9. GRANT ALL PRIVILEGES ON django_db.* TO 'django_user'@'localhost';
+10. FLUSH PRIVILEGES;
+11. EXIT;
+12. sudo apt install phpmyadmin -y
+13. sudo ln -s /usr/share/phpmyadmin /var/www/html/phpMyAdmin
+14. sudo systemctl restart apache2
+15. http://185.217.126.127/phpmyadmin
+16. 
