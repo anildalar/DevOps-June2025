@@ -2281,3 +2281,36 @@ Install MySQL and PhpMyAdmin on Hostmachine
 14. sudo systemctl restart apache2
 15. http://185.217.126.127/phpmyadmin
 16. 
+
+
+
+touch .env docker-compose.yaml Dockerfile entrypoint.sh Jenkinsfile .dockerignore && mkdir -p project/frontend && mkdir -p project/backend
+
+
+
+project
+	5.1 frontend
+	5.2 backend
+
+
+
+docker-compose -f docker-compose.yaml up -d --build
+
+
+apt install docker.io docker-compose -y
+
+
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.39.3/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+
+COPY project/backend /app
+
+
+/app/manage.py
+
+
+docker-compose ps -a
+
+docker-compose down
+
+docker exec -it django_app python backend/manage.py createsuperuser
