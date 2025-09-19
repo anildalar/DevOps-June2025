@@ -2314,3 +2314,154 @@ docker-compose ps -a
 docker-compose down
 
 docker exec -it django_app python backend/manage.py createsuperuser
+
+Django Application + MySQL
+Django Application + PostGress
+
+
+NodeJs App  -> NextJs/Strapi
+Python App  -> Django
+Java Application -> SpringBoot   -> JDK (Java Development Kit)
+
+
+1. Lets Deploy SpringBoot App on HostMachine
+2. Lets Deploy Spring Boot App with Docker
+
+Spring Boot (Microservice Based Framework)
+
+
+185.217.126.127
+root
+p7suCI^wqEk24gex
+
+
+node --version
+npm  --version
+
+java -version
+mvn -version
+
+
+python3 --verion
+pip --vresion
+
+
+jar -> Java Archive
+
+
+Tomcat is web server ----> Java Application
+
+Apache/Ngnix  ---> Nodejs/Python
+
+./mvnw clean package -DskipTests
+java -jar target/demo-0.0.1-SNAPSHOT.jar
+
+docker compose -f docker-compose.yaml up -d --build
+
+Create a simple spring boot application with CRUD Operation on MYSQL /PostGress / MongoDB
+
+
+
+185.217.126.127
+root
+?myUf63Fqpv9qUbm
+
+
+docker-compose -f docker-compose.yaml up -d --build
+docker compose down
+
+pom.xml (Extensible Markup Language)
+POM stands for Project Object Model.
+
+
+
+GUI = Graphical User Interface
+
+MySQL + PMA PhpMYADMIN
+
+
+
+185.217.126.127
+root
+VsbvAw1qHu3o!l6u
+
+
+Create a simple spring boot application with CRUD Operation on PostGress
+
+
+1. Postgres - Database
+2. PGAdmin - GUI
+3. SpringBoot - Java Application 
+
+
+docker-compose -f docker-compose.yaml up -d --build
+docker compose down
+
+
+Create a simple spring boot application with Create Operation on MongoDB with Docker Setup
+
+185.217.126.127
+root
+l9W1X~8uricckLly
+
+
+
+1. Install and Test on HostMachine
+2. Create your Dockerfile and docker-compose.yaml
+
+
+
+How to setup a blank starter Spring Boot Application
+1.
+curl https://start.spring.io/starter.tgz \
+  -d dependencies=web,data-mongodb \
+  -d javaVersion=22 \
+  -d bootVersion=3.3.2 \
+  -d packaging=jar \
+  -d type=maven-project \
+  -d name=backend \
+  -d groupId=com.example \
+  -d artifactId=backend \
+  -d packageName=com.example.demo \
+  | tar -xzvf -
+
+
+2.
+mvn archetype:generate -DgroupId=com.example.demo \
+    -DartifactId=backend \
+    -DarchetypeArtifactId=maven-archetype-quickstart \
+    -DinteractiveMode=false
+
+3.
+3.1 sudo apt update
+3.2 sudo apt install -y curl zip unzip
+3.3 curl -s "https://get.sdkman.io" | bash
+3.4 source "$HOME/.sdkman/bin/sdkman-init.sh"
+3.5 exec "$SHELL"
+3.6 sdk version
+3.7 sdk install java 22-tem
+3.8 sdk install springboot
+3.9 cd project
+3.10 
+spring init \
+    --dependencies=web,data-mongodb \
+    --java-version=22 \
+    --build=maven \
+    --name=backend \
+    --package-name=com.example.demo \
+    backend
+
+
+3.
+ curl 
+
+
+MVC =
+ 
+Model
+View
+Controller
+
+
+
+
