@@ -2462,6 +2462,42 @@ Model
 View
 Controller
 
+185.217.126.127
+root
+tlv66htM6tAflL!s
 
+
+
+
+
+Deploy Spring boot application with Docker using below databases.
+1. MySQL + PhpMyAdmin (PMA) (Web based GUI)
+2. MySQL + Workbench (Desktop based GUI)
+3. Postgress + PGAdmin (Web based GUI)
+4. MongoDB + MongoExpress (Web based GUI)
+5. MongoDB + MongoDBCompass (Desktop App based GUI)
+
+
+
+Deploy FastAPI application with Docker using below databases.
+1.MySQL + Workbech (Desktop App GUI)
+
+touch .env docker-compose.yaml Dockerfile entrypoint.sh Jenkinsfile .dockerignore && mkdir -p project/frontend && mkdir -p project/backend
+
+
+
+MVC
+m= Model -> To perform CRUD operation with Database
+
+1. /anil/project/backend# pip install --upgrade pip
+2. /anil/project/backend# python3 -m venv anilvenv
+1. /anil/project/backend# pip install django
+2. /anil/project/backend# django-admin startproject backend
+3. /anil/project/backend# cd backend
+4. /anil/project/backend/backend# python3 manage.py runserver 0.0.0.0:8000
+
+
+docker-compose -f docker-compose.yaml up -d --build
+docker compose down
 
 
